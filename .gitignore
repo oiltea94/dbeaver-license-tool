@@ -1,0 +1,39 @@
+# Generated distributions and compiled output
+/dist/
+/dist-*/
+build/
+/out/
+/target/
+*.class
+dbeaver-license-tool.jar
+dbeaver-license-tool-portable.zip
+
+# Local registration state, signing keys and recovery data
+.local-license-tool/
+.jkiss-lm/
+.local-license-tool.lock
+*.lic.local-license-tool.properties
+private.pem
+/.config/dbeaver-local-license-tool/
+
+# Analysis workspaces, logs and temporary files
+/.work/
+*.log
+*.tmp
+*.pending
+*.bak
+*.swp
+*~
+
+# Local IDE settings
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
